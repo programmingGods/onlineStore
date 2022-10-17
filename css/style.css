@@ -111,16 +111,25 @@ input[type=text].field:focus {
 
 /*Основные стили для сайта*/
 
+article {
+    margin-bottom: 10px;
+}
+
 #wrapper {
     float: left;
     width: 100%;
-    margin-top: 20px;
+    margin-top: 5px;
 }
 
 #wrapper #popular {
+    margin-top: 5px;
     float: left;
     width: 80%;
     margin-left: 10%;
+}
+
+#leftArticle {
+    margin-left: 200px; 
 }
 
 #wrapper h2 {
